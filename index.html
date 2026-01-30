@@ -2,72 +2,196 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>EVEREST JOURNEYS | Corporate & Family Travel</title>
-  <meta name="description" content="EVEREST JOURNEYS provides premium travel solutions for families and corporate groups. Hotels, transport & custom packages.">
+  <title>EVEREST JOURNEYS | Your Travel Partner</title>
+  <meta name="description" content="Everest Journeys is a premium travel consultancy offering hotel bookings, transport services, and custom travel packages for families and corporate groups.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
   <style>
-    body { font-family: Arial, sans-serif; margin:0; padding:0; }
-    header { background:#0b3c5d; color:white; padding:40px 20px; text-align:center; }
-    section { padding:40px 20px; max-width:1000px; margin:auto; }
-    h2 { color:#0b3c5d; }
-    ul { line-height: 1.8; }
-    .btn {
-      display:inline-block; background:#ff9800; color:white;
-      padding:12px 22px; text-decoration:none; border-radius:5px;
-      margin-top:15px;
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+      line-height: 1.7;
     }
-    footer { background:#f2f2f2; text-align:center; padding:15px; font-size:14px; }
+
+    header {
+      padding: 80px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #020617, #0f172a);
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 42px;
+      margin-bottom: 10px;
+      color: #facc15;
+    }
+
+    header p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: auto;
+      opacity: 0.9;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 15px 10px 0;
+      padding: 14px 28px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .btn-whatsapp {
+      background: #22c55e;
+      color: #020617;
+    }
+
+    .btn-gold {
+      background: #facc15;
+      color: #020617;
+    }
+
+    .btn:hover {
+      opacity: 0.85;
+    }
+
+    section {
+      padding: 70px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #facc15;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: #020617;
+      padding: 25px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    footer {
+      background: #020617;
+      padding: 40px 20px;
+      text-align: center;
+      font-size: 14px;
+      opacity: 0.85;
+    }
+
+    footer a {
+      color: #facc15;
+      text-decoration: none;
+      margin: 0 8px;
+    }
   </style>
 </head>
+
 <body>
 
+<!-- HERO -->
 <header>
   <h1>EVEREST JOURNEYS</h1>
-  <p>Premium Travel Solutions for Families & Corporate Groups</p>
-  <a class="btn" href="https://wa.me/919928728548">WhatsApp for Booking</a>
+  <p>Luxury Travel Experiences, Thoughtfully Designed for Families, Corporate Groups & Leisure Travelers.</p>
+
+  <a class="btn btn-whatsapp" href="https://wa.me/919928728548">Plan Your Trip on WhatsApp</a>
+  <a class="btn btn-gold" href="#contact">Book Travel / Hotel Consultation</a>
 </header>
 
+<!-- ABOUT -->
 <section>
-  <h2>What We Do</h2>
+  <h2>Welcome to Everest Journeys</h2>
   <p>
-    EVEREST JOURNEYS designs and manages complete travel experiences.
-    From hotels and transport to full group coordination — we handle everything,
-    so you can travel stress-free.
+    Everest Journeys is a premium travel consultancy built on trust, partnerships, and personalized service.
+    We collaborate with hotels, resorts, and transport providers to deliver seamless travel experiences across India.
   </p>
 </section>
 
+<!-- SERVICES -->
 <section>
   <h2>Our Services</h2>
-  <ul>
-    <li>Family & Group Travel Packages</li>
-    <li>Corporate Tours & Team Outings</li>
-    <li>Hotel Bookings with Special Net Rates</li>
-    <li>Taxi, Tempo Traveller & Mini Bus Services</li>
-    <li>Custom Weekend & Holiday Getaways</li>
-  </ul>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Hotel & Resort Bookings</h3>
+      <p>Luxury resorts, boutique hotels, and quality stays at the best negotiated rates.</p>
+    </div>
+
+    <div class="card">
+      <h3>Transport & Group Travel</h3>
+      <p>Tempo travellers, mini buses, and taxi services for families and corporate groups.</p>
+    </div>
+
+    <div class="card">
+      <h3>Customized Travel Packages</h3>
+      <p>Tailor-made itineraries designed around your destination, budget, and preferences.</p>
+    </div>
+
+    <div class="card">
+      <h3>Corporate Travel</h3>
+      <p>Corporate offsites, team outings, conferences, and incentive trips professionally managed.</p>
+    </div>
+  </div>
 </section>
 
+<!-- WHY US -->
 <section>
-  <h2>Why Choose EVEREST JOURNEYS</h2>
-  <ul>
-    <li>Single Point of Coordination</li>
-    <li>Trusted Hotel & Transport Partners</li>
-    <li>Clear Pricing & Smooth Execution</li>
-    <li>Personalized Support for Every Journey</li>
-  </ul>
-</section>
-
-<section>
-  <h2>Contact Us</h2>
+  <h2>Why Choose Everest Journeys</h2>
   <p>
-    📞 Call / WhatsApp: <strong>+91 99287 28548</strong><br>
-    📧 Email: everestjourneys@gmail.com<br>
-    📍 Location: Rajasthan, India
+    ✔ Trusted hotel & transport partners <br>
+    ✔ Transparent pricing <br>
+    ✔ Personalized planning <br>
+    ✔ Dedicated support <br>
+    ✔ Strong destination knowledge
   </p>
 </section>
 
+<!-- INSTAGRAM -->
+<section>
+  <h2>Travel Stories & Experiences</h2>
+  <p>Follow our journeys, hotel collaborations, and real travel experiences.</p>
+  <a class="btn btn-gold" href="https://www.instagram.com/everest_journeys" target="_blank">
+    Follow Us on Instagram
+  </a>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact & Consultation</h2>
+  <p>
+    📞 Phone / WhatsApp: <strong>+91 9928728548</strong><br>
+    📧 Email: <strong>everestjourneys2005@gmail.com</strong>
+  </p>
+
+  <a class="btn btn-whatsapp" href="https://wa.me/919928728548">
+    Chat on WhatsApp
+  </a>
+</section>
+
+<!-- FOOTER -->
 <footer>
-  <p>© 2026 EVEREST JOURNEYS | Travel Service Provider</p>
+  <strong>EVEREST JOURNEYS</strong> – Your Travel Partner <br><br>
+  <a href="#">Home</a> |
+  <a href="#contact">Contact</a> |
+  <a href="https://www.instagram.com/everest_journeys">Instagram</a>
 </footer>
 
 </body>
